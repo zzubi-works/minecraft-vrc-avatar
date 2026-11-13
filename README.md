@@ -17,7 +17,7 @@ VRChat 아바타를 마인크래프트 서버용 MMD(PMX) 묶음으로 보내는
 | Releases `v<판>` | 패키지 zip `com.zzubi-works.minecraft-vrc-avatar-<판>.zip` |
 
 패키지는 VRChat SDK(`com.vrchat.avatars` 3.5 이상)가 든 Unity 2022.3 프로젝트에서 씁니다. 마크 쪽은 MmdSkin과 묶음을 받는 서버 모드가 있어야 합니다.
-셰이더 효과·기믹은 빠지고 메인 텍스처 색·뼈·표정 몇 개·물리 근사만 옮깁니다.
+원래 셰이더로 그린 색을 텍스처에 구워 옮기고(움직이는 효과·기믹은 빠짐), 뼈·표정 몇 개·물리 근사를 옮깁니다. 물리는 쉬는 모양을 지키도록 좁게 흔들립니다.
 내보낸 아바타의 권리는 원래 아바타의 약관을 따릅니다.
 
 ## 라이선스
@@ -28,3 +28,8 @@ MIT (`LICENSE`).
 
 Minecraft VRC Avatar: VPM repository for a Unity editor tool that converts a VRChat avatar into an MMD (PMX) bundle for a Minecraft server.
 Add `https://raw.githubusercontent.com/zzubi-works/minecraft-vrc-avatar/main/index.json` in ALCOM / VCC.
+
+## 바뀐 것
+
+- 0.1.1: 원래 셰이더로 색 굽기(피부·눈·털 색이 Unity와 맞음), 텍스처 없는 재질 막기, 흔들림이 멈추지 않던 물리 고침(좁은 제한·안정 스프링·큰 감쇠, 겹친 PhysBone 장치는 흔들지 않음).
+- 0.1.0: 첫 판.
