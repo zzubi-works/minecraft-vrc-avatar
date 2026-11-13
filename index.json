@@ -57,6 +57,32 @@
           "legacyFiles": {},
           "url": "https://github.com/zzubi-works/minecraft-vrc-avatar/releases/download/v0.1.1/com.zzubi-works.minecraft-vrc-avatar-0.1.1.zip",
           "zipSHA256": "0e0438ec09cd52244c104d74487ea24bc7d1c24578af3133206f2e4cbcfeb98e"
+        },
+        "0.1.2": {
+          "name": "com.zzubi-works.minecraft-vrc-avatar",
+          "displayName": "Minecraft VRC Avatar",
+          "version": "0.1.2",
+          "unity": "2022.3",
+          "description": "VRChat 아바타를 버튼 한 번으로 마인크래프트(MmdSkin) 아바타 묶음(MMD PMX)으로 내보내요. 메뉴: Tools > Minecraft VRC Avatar > 마크로 보내기.",
+          "author": {
+            "name": "zzubi-works",
+            "url": "https://github.com/zzubi-works"
+          },
+          "license": "MIT",
+          "keywords": [
+            "minecraft",
+            "mmd",
+            "mmdskin",
+            "pmx",
+            "vrchat"
+          ],
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.5.0"
+          },
+          "legacyFolders": {},
+          "legacyFiles": {},
+          "url": "https://github.com/zzubi-works/minecraft-vrc-avatar/releases/download/v0.1.2/com.zzubi-works.minecraft-vrc-avatar-0.1.2.zip",
+          "zipSHA256": "150682ae2c92722a7a1f803a813104efb0e3b942ba74a51e243f904bc682253d"
         }
       }
     }
